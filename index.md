@@ -4,5 +4,5 @@
 
  layout: home
 ---
-Hello! My name is Dexuan Tang. I am a Electrical and Computer Enginnering student at Worcester Polytechnic Institute I like electronics, 3D printing, and I'm learning to code. This site documents all my past projects since highschool.
+Hello! My name is Dexuan Tang. I am a Electrical and Computer Enginnering student at Worcester Polytechnic Institute I like electronics, 3D printing, and I'm learning to code. This site is my latest project and it documents all my major projects since highschool.
 
