@@ -29,7 +29,7 @@ The neural network is given a 3-element input vector with random noises added to
 
 The neural network converged with a spread similar to the input data.
  
- ## Backpropagation NN
+## Backpropagation
 
  To add non-linear elements to the neural network, we can use multiple ADALINE neurons. and the weight of each neuron is adjusted through backpropagation.
 
