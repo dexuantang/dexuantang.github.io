@@ -5,7 +5,7 @@ date:   2022-02-06 10:27:09 -0500
 categories: Projects
 image1: /assets/watch1.jpg
 image2: /assets/Watch2.jpg
-image3: /schematics.webp
+image3: /assets/schematics.png
 ---
 ![Image of the watch]({{ page.image1 }})
 
