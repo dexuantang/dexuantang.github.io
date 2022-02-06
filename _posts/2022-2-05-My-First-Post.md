@@ -14,3 +14,64 @@ image: /assets/robot1.png
   connecting all the electronics(consists of an Arduino UNO, a Bluetooth receiver and two servos).
   
   I programmed the robot in Arduino IDE and used an Android APP to send commands through Bluetooth.
+
+  These are some of the codes to make it work
+
+  ```
+#include <Servo.h> Servo frontservo,backservo; //Built in servo library
+char forward[] = {80,110,110,110,110,80,80,80};
+char left[] = {60,100,100,60,60,80,80,80};     //different angles for turning char right[] = {120,100,100,120,120,80,80,80}; char t; 
+
+void setup() 
+{ 
+  frontservo.attach(9); backservo.attach(10);
+  Serial.begin(9600);
+}
+void loop() 
+{ 
+  if(Serial.available())
+{   
+  t = Serial.read();   Serial.println(t);
+}
+if(t == 'F') 
+{           //check for bluetooth inputs move forward   
+  for(int n=0;n<4;n++)
+  {
+   frontservo.write(forward[2*n]);   
+   backservo.write(forward[(2*n)+1]);   
+   delay(40);
+  }
+}
+else if(t == 'B') 
+{      //reverse 
+  for(int n=0;n<4;n++)
+  {   
+    frontservo.write(180-forward[2*n]);   backservo.write(180-forward[(2*n)+1]);   delay(60);
+  }
+}  
+else if(t == 'L')
+{      //turn right   
+  for(int n=0;n<4;n++) 
+    {   
+      frontservo.write(left[2*n]);   
+      backservo.write(left[(2*n)+1]);   
+      delay(100);
+    }
+}   
+  else if(t == 'R')
+{      //turn left 
+  for(int n=0;n<4;n++) 
+  {
+    frontservo.write(right[2*n]);   
+    backservo.write(right[(2*n)+1]);   
+    delay(100);
+  }
+}
+else if(t == 'S') 
+{      //stop   f
+  rontservo.write(90);   
+  backservo.write(90);
+} 
+  delay(100);
+}
+```

@@ -16,9 +16,7 @@
 title: Dexuan Tang's Portfolio
 email: dtang2@wpi.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! My name is Dexuan Tang. I am a Electrical and Computer Enginnering student at Worcester Polytechnic Institute
-  I like electronics, 3D printing, and I'm learning to code.
-  This site documents all my past projects since highschool.
+  This site was created by Dexuan Tang using Jekyll and the Minima theme
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dexuantang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: dexuantang
