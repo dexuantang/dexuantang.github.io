@@ -24,7 +24,8 @@ char left[] = {60,100,100,60,60,80,80,80};     //different angles for turning ch
 
 void setup() 
 { 
-  frontservo.attach(9); backservo.attach(10);
+  frontservo.attach(9); 
+  backservo.attach(10);
   Serial.begin(9600);
 }
 void loop() 
@@ -46,7 +47,9 @@ else if(t == 'B')
 {      //reverse 
   for(int n=0;n<4;n++)
   {   
-    frontservo.write(180-forward[2*n]);   backservo.write(180-forward[(2*n)+1]);   delay(60);
+    frontservo.write(180-forward[2*n]);  
+    backservo.write(180-forward[(2*n)+1]);   
+    delay(60);
   }
 }  
 else if(t == 'L')
