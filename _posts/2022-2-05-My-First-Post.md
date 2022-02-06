@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title:  "2 servo 4 legged walking robot"
 date:   2022-02-05 22:20:09 -0500
 categories: Projects
