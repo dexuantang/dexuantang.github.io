@@ -7,7 +7,7 @@ image: /assets/robot1.png
 ---
 ![Image of the robot]({{ page.image }})
 
-Link to video: [YouTube](https://youtu.be/Es3T07xIOaM)
+Link to video: [YouTube](https://youtu.be/Es3T07xIOaM
 ## What is it?
 
   I built this robot in September 2019, the idea was to build a very simple robot used as a prop for my highschool engineering club trailer. I did some searching and found out using only two servos and making the legs tilted so that the legs can act as pivots can make a robot move in all 3 directions except backing up. 
