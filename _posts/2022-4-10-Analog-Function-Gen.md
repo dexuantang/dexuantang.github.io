@@ -6,6 +6,7 @@ categories: Projects
 image1: /assets/Functiongen1.jpg
 image2: /assets/Functiongen2.jpg
 image3: /assets/Functiongen3.jpg
+image4: /assets/Functiongen0.jpg
 ---
 
 ## Description
@@ -13,6 +14,11 @@ This is an attemp to create a analog function generator based on comparators and
 
 The project is currently in design and simulation phase in NI Multisim. For progress till this page is updatated, please follow the link to its main repository: 
 https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations
+
+## Block Diagram
+
+![ Block diagram of the function generator that converts the square wave to trangular wave and then sine wave]({{ page.image4 }})
+
 
 ## Update
 2022/4/17
