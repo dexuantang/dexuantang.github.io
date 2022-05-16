@@ -9,6 +9,9 @@ image3: /assets/Functiongen3.jpg
 image4: /assets/Functiongen0.jpg
 image5: /assets/FuncRLC.jpg
 image6: /assets/FuncRLC25.jpg
+image7: /assets/functiongenin.png
+image8: /assets/FUNCI.jpg
+image9: /assets/FUNCI2.jpg
 ---
 
 ## Description
@@ -45,3 +48,17 @@ Below are the plots of the second order filter step response at the max possible
 
 ![ Oscilloscope plot at 25MHz]({{ page.image6 }})
 ![ Oscilloscope plot at 7MHz]({{ page.image5 }})
+
+2022/5/16
+
+High speed op-amp (AD8062ARMZ) arrived for the integrator stage prototype.
+
+![Current schematics]({{ page.image7 }})
+
+Tested the circuit on a breadboard up to 5MHz. The +-2.75V supply was generated with two LEDs in series that regulate a 5.5V input. Proper voltage regulators will be used in the final design, The integrator will use +-4V supply to prevent saturation.
+
+![Breadboard circuit]({{ page.image8 }})
+![scope display]({{ page.image9 }})
+
+Because the frequency of the waveform is controlled by the threshold of the comparator and the RC circuit has a small time constant, lower frequency cannot be generated with the current configuration. A range switch or a corse adjustment will be designed to alter the time constant of the RC circuit.
+
