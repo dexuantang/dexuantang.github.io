@@ -12,14 +12,13 @@ image6: /assets/FuncRLC25.jpg
 image7: /assets/functiongenin.png
 image8: /assets/FUNCI.jpg
 image9: /assets/FUNCI2.jpg
-image10: /assets/candidate.jpg
+image10: /assets/candidate.png
 ---
 
 ## Description
 This is an attemp to create a analog function generator based on comparators and op-amps that targets a maximum frequency of 20 MHz.
 
-The project is currently in design and simulation phase in NI Multisim. For progress till this page is updatated, please follow the link to its main repository: 
-https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations
+The project is currently in design and simulation phase in NI Multisim. For progress till this page is updatated, please follow the link to its [main repository](https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations).
 
 ## Block Diagram
 
@@ -63,7 +62,7 @@ Tested the circuit on a breadboard up to 5MHz. The +-2.75V supply was generated 
 
 Because the frequency of the waveform is controlled by the threshold of the comparator and the RC circuit has a small time constant, lower frequency cannot be generated with the current configuration. A range switch or a corse adjustment will be designed to alter the time constant of the RC circuit.
 
-## 2022/5/21 Signal stage design candidate
+#### 2022/5/21 Signal stage design candidate
 
 Now the square wave is controlled by the triangular wave. The triangular wave is fed into the comparator in a Schmitt trigger configuration. This will make sure that the amplitude of the triangular wave does not change too much. A range switch and a fine adjustment potentiometer for frequency is added. The square wave and triangular wave stages were tested on bread board and produced good result.
 
