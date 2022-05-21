@@ -12,6 +12,7 @@ image6: /assets/FuncRLC25.jpg
 image7: /assets/functiongenin.png
 image8: /assets/FUNCI.jpg
 image9: /assets/FUNCI2.jpg
+image10: /assets/candidate.jpg
 ---
 
 ## Description
@@ -61,4 +62,12 @@ Tested the circuit on a breadboard up to 5MHz. The +-2.75V supply was generated 
 ![scope display]({{ page.image9 }})
 
 Because the frequency of the waveform is controlled by the threshold of the comparator and the RC circuit has a small time constant, lower frequency cannot be generated with the current configuration. A range switch or a corse adjustment will be designed to alter the time constant of the RC circuit.
+
+## 2022/5/21 Signal stage design candidate
+
+Now the square wave is controlled by the triangular wave. The triangular wave is fed into the comparator in a Schmitt trigger configuration. This will make sure that the amplitude of the triangular wave does not change too much. A range switch and a fine adjustment potentiometer for frequency is added. The square wave and triangular wave stages were tested on bread board and produced good result.
+
+The sine wave stage is designed. It uses a 8-diode shaper circuit which exploits the non-linear voltage transfer curve of diodes. The schematic and simulation is available through the repository for this project. This design will likely be very similar to the final design.
+
+![design candidate with all three stages]({{ page.image10 }})
 
