@@ -18,9 +18,9 @@ image12: /assets/FGoutput.png
 ---
 
 ## Description
-This is an attemp to create a analog function generator based on comparators and op-amps that targets a maximum frequency of 20 MHz.
+A 5Mhz analog function generator with 10V peak to peak square, triangular, and sine wave output at 50 ohm load impedance.
 
-The project is currently in design and simulation phase in NI Multisim. For progress till this page is updatated, please follow the link to its [main repository](https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations).
+The project is still work in progress. This page only posts updates from time to time. For real time progress and full schematics, please follow the link to its [main repository](https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations).
 
 ## Block Diagram
 
