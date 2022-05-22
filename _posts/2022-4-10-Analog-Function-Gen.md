@@ -37,7 +37,7 @@ The diodes in the signal stage were replaced with in-stock options and the numbe
 
 The output uses three LM7171 amplifiers for its high gain bandwidth product and current output. However the amplifier has a relative small phase margin (50 degrees). Therefore a fourth order Sallen-Key lowpass filter with a cutoff frequency of 21.5MHz was added to reduce oscillations.
 
-![output stage]({{ page.image1w }})
+![output stage]({{ page.image12 }})
 
 ### 2022/5/21 Signal stage design candidate
 
