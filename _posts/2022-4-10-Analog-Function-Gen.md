@@ -14,7 +14,7 @@ image8: /assets/FUNCI.jpg
 image9: /assets/FUNCI2.jpg
 image10: /assets/candidate.png
 image11: /assets/FGsignal.png
-image12: /assets/FGsignal.png
+image12: /assets/FGoutput.png
 ---
 
 ## Description
