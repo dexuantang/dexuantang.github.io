@@ -15,6 +15,7 @@ image9: /assets/FUNCI2.jpg
 image10: /assets/candidate.png
 image11: /assets/FGsignal.png
 image12: /assets/FGoutput.png
+image13: /assets/PCBV1.png
 ---
 
 ## Description
@@ -28,6 +29,12 @@ The project is still work in progress. This page only posts updates from time to
 
 
 ## Update
+
+### 2022/6/18
+
+Finished board layout.
+
+![PCB version 1]({{ page.image13 }})
 
 ### 2022/5/22 Update on signal stage design candidate and output amplifier stage
 
