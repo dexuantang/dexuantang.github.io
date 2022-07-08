@@ -16,6 +16,7 @@ image10: /assets/candidate.png
 image11: /assets/FGsignal.png
 image12: /assets/FGoutput.png
 image13: /assets/PCBV1.png
+image14: /assets/FGPCB.png
 ---
 
 ## Description
@@ -29,6 +30,12 @@ The project is still work in progress. This page only posts updates from time to
 
 
 ## Update
+### 2022/7/8
+
+PCB finally arrived. Still waiting for components...
+
+![Finished PCB version 1]({{ page.image14 }})
+
 
 ### 2022/6/18
 
