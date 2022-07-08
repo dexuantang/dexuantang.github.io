@@ -16,7 +16,7 @@ image10: /assets/candidate.png
 image11: /assets/FGsignal.png
 image12: /assets/FGoutput.png
 image13: /assets/PCBV1.png
-image14: /assets/FGPCB.png
+image14: /assets/FGPCB.jpg
 ---
 
 ## Description
