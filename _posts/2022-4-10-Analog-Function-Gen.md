@@ -20,7 +20,7 @@ image14: /assets/FGPCB.jpg
 ---
 
 ## Description
-A 5Mhz analog function generator with 10V peak to peak square, triangular, and sine wave output at 50 ohm load impedance.
+This is an attempt at designing a analog function generator as an exercise of my circuit designing skills.
 
 The project is still work in progress. This page only posts updates from time to time. For real time progress and full schematics, please follow the link to its [main repository](https://github.com/dexuantang/Analog-Function-Gen/tree/main/Simulations).
 
